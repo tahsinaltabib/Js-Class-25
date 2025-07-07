@@ -2,17 +2,52 @@
 // Condition
 // Loop  =>for,while,do while
 
-// for (initialValue; condition;iteration){
+
+
+//For loop example---------
+
+// for (initialValue; condition; interation){
 //     //Output
 // }
 
 
-for (let i = 0; i < 100;i++){
-    document.write("I love you so much");  
+// for (let i=0; i<100;i++){
+//     document.write("I love you so much");
+// }
+
+
+// for (let i=1; i<10; i=i+1) {
+//     console.log();
+// }
+
+
+// let namta=5
+
+// for (let i =1; i<=10; i++){
+//     console.log(namta+" X " +i+" = "+ namta*i);
+// }
+
+
+// let namta=prompt('Enter a number:')
+
+// for (let i =1; i<=10; i++){
+//     console.log(namta+" X " +i+" = "+ namta*i);
+// }
+
+
+//While loop example-----------
+
+//let i=0
+
+//while(condition){
+//console.log()
+//}
+
+
+let i=0
+
+while (i<=100){
+    console.log('The even number is: ', i);
+    i=i+2
+    
 }
-
-
-for (let i = 0; i < 100; i++) {
-    console.log("I love you so much", i);
-}
-
