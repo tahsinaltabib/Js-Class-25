@@ -6,6 +6,7 @@
 
 //For loop example---------
 
+//syntex---
 // for (initialValue; condition; interation){
 //     //Output
 // }
@@ -37,6 +38,7 @@
 
 //While loop example-----------
 
+//syntex---
 //let i=0
 
 //while(condition){
@@ -44,10 +46,23 @@
 //}
 
 
+// let i=0
+
+// while (i<=100){
+//     console.log('The even number is: ', i);
+//     i=i+2
+    
+// }
+
+
+
+//Do While loop----------------
+
+//Syntex---
 let i=0
 
-while (i<=100){
-    console.log('The even number is: ', i);
-    i=i+2
-    
-}
+do{
+    console.log('Tahsin Al Tabib',i)
+    i++
+
+}while(i<10)
